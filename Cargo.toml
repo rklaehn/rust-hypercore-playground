@@ -1,0 +1,13 @@
+[package]
+name = "hypercore-playground"
+version = "0.1.0"
+authors = ["Rüdiger Klaehn <rklaehn@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hypercore = "0.10.0"
+random-access-disk = "0.8.0"
+random-access-memory = "1.0.0"
+failure = "0.1.5"
